@@ -1,0 +1,102 @@
+.shape1{
+height: 400px;
+width: 400px;
+background-image: url(photo.png);
+background-repeat: no-repeat;
+color: white;
+background-color: lightgray;
+margin-bottom: 30px;
+padding: 15px 30px 70px 15px;
+
+}
+.shape2{
+height: 400px;
+width: 400px;
+background-image: url(photo.png);
+color: white;
+margin-bottom: 40px;
+background-repeat: repeat-y;
+background-color: lightgray;
+padding: 15px 30px 70px 15px;
+
+
+
+}
+.shape3{
+height: 400px;
+width: 400px;
+background-image: url(photo.png);
+color: white;
+background-repeat: repeat-x;
+background-color: lightgray;
+padding: 15px 30px 70px 15px;
+margin-bottom: 30px;
+
+
+
+}
+.shape4{
+height: 400px;
+width: 400px;
+background-image: url(photo.png);
+color: white;
+background-repeat: repeat;
+background-color: lightgray;
+padding: 15px 30px 70px 15px;
+
+margin-bottom: 30px;
+
+}
+.shape5{
+    width: 150px;
+    height: 60px;	 
+	display: flex;
+    border-style: outset;
+    border-color: red ;
+    outline-width: 5px;
+    outline-style: outset;
+    outline-color: black;
+    border-width: 5px;
+    font-size: 20px;
+    background-color: lightgray;
+        display: table-cell;
+
+}
+.shape6{
+	  width: 150px;
+    height: 60px;	 
+	display: flex;
+    border-style: outset;
+    border-color: blue #0AD60F;
+    outline-width: 5px;
+    outline-style: outset;
+    outline-color: black;
+    border-width: 5px;
+    font-size: 20px;
+    background-color: lightgray;
+    display: table-cell;
+}
+.shape7{
+	
+ width: 150px;
+    height: 60px;	 
+	display: flex;
+    border-style: dashed;
+    border-color: red green blue yellow ;
+    outline-width: 5px;
+    outline-style: outset;
+    outline-color: black;
+    border-width: 5px;
+    font-size: 20px;
+    background-color: lightgray;
+        display: table-cell;
+
+}
+h3{
+	text-align: center;
+}
+.row{
+	display: table;
+     border-spacing: 50px;
+    table-layout: fixed;
+}
